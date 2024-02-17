@@ -13,7 +13,7 @@ public class AreaVolOfTri {
         // Scanner object
         Scanner sc= new Scanner(System.in);
         double l;
-        double area=0.0, volume= 0.0;
+        double area, volume;
         System.out.print("Enter length of the sides of the Equilateral Triangle : ");
         l= sc.nextDouble();
         // Compute area
